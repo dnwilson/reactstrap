@@ -2290,12 +2290,13 @@ var CarouselItem = function (_React$Component) {
       var _this2 = this;
 
       var _props = this.props,
-          src = _props.src,
           altText = _props.altText,
           children = _props.children,
           cssModule = _props.cssModule;
 
-      var classes = mapToCssModules(classNames('d-block', 'img-fluid'), cssModule);
+      var classes = mapToCssModules(classNames(
+      // 'd-block',
+      'img-fluid'), cssModule);
 
       var itemClasses = mapToCssModules(classNames.apply(undefined, ['carousel-item'].concat(toConsumableArray(this.state.animation))), cssModule);
 
@@ -2304,7 +2305,7 @@ var CarouselItem = function (_React$Component) {
         { className: itemClasses, ref: function ref(slide) {
             _this2.slide = slide;
           } },
-        React__default.createElement('img', { className: classes, src: src, alt: altText }),
+        React__default.createElement('img', { className: classes, alt: altText }),
         children
       );
     }
@@ -2313,10 +2314,8 @@ var CarouselItem = function (_React$Component) {
 }(React__default.Component);
 
 CarouselItem.propTypes = {
-  src: PropTypes.string.isRequired,
   altText: PropTypes.string,
-  cssModule: PropTypes.object,
-  children: PropTypes.instanceOf(CarouselCaption)
+  cssModule: PropTypes.object
 };
 
 CarouselItem.contextTypes = {
