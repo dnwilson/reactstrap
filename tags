@@ -134,10 +134,10 @@ CarouselItem.contextTypes.direction	dist/reactstrap.cjs.js	/^CarouselItem.contex
 CarouselItem.contextTypes.direction	dist/reactstrap.es.js	/^CarouselItem.contextTypes = {$/;"	p
 CarouselItem.contextTypes.direction	lib/CarouselItem.js	/^CarouselItem.contextTypes = {$/;"	p
 CarouselItem.contextTypes.direction	src/CarouselItem.js	/^CarouselItem.contextTypes = {$/;"	p
+CarouselItem.propTypes.altText	dist/reactstrap.cjs.js	/^CarouselItem.propTypes = {$/;"	p
+CarouselItem.propTypes.altText	dist/reactstrap.es.js	/^CarouselItem.propTypes = {$/;"	p
+CarouselItem.propTypes.altText	lib/CarouselItem.js	/^CarouselItem.propTypes = {$/;"	p
 CarouselItem.propTypes.altText	src/CarouselItem.js	/^CarouselItem.propTypes = {$/;"	p
-CarouselItem.propTypes.src	dist/reactstrap.cjs.js	/^CarouselItem.propTypes = {$/;"	p
-CarouselItem.propTypes.src	dist/reactstrap.es.js	/^CarouselItem.propTypes = {$/;"	p
-CarouselItem.propTypes.src	lib/CarouselItem.js	/^CarouselItem.propTypes = {$/;"	p
 CleanWebpackPlugin	webpack.dev.config.js	/^var CleanWebpackPlugin = require('clean-webpack-plugin');$/;"	v
 Col	dist/reactstrap.cjs.js	/^var Col = function Col(props) {$/;"	f
 Col	dist/reactstrap.es.js	/^var Col = function Col(props) {$/;"	f

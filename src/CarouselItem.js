@@ -76,7 +76,6 @@ class CarouselItem extends React.Component {
 
     return (
       <div className={itemClasses} ref={(slide) => { this.slide = slide; }}>
-        <img className={classes} alt={altText} />
         {children}
       </div>
     );

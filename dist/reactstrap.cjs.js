@@ -2305,7 +2305,6 @@ var CarouselItem = function (_React$Component) {
         { className: itemClasses, ref: function ref(slide) {
             _this2.slide = slide;
           } },
-        React__default.createElement('img', { className: classes, alt: altText }),
         children
       );
     }
