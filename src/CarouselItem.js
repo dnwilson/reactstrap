@@ -66,9 +66,9 @@ class CarouselItem extends React.Component {
 
 
   render() {
-    const { src, altText, children, cssModule } = this.props;
+    const { altText, children, cssModule } = this.props;
     const classes = mapToCssModules(classNames(
-        'd-block',
+        // 'd-block',
         'img-fluid'
     ), cssModule);
 
@@ -76,7 +76,7 @@ class CarouselItem extends React.Component {
 
     return (
       <div className={itemClasses} ref={(slide) => { this.slide = slide; }}>
-        <img className={classes} src={src} alt={altText} />
+        <img className={classes} alt={altText} />
         {children}
       </div>
     );
@@ -84,10 +84,8 @@ class CarouselItem extends React.Component {
 }
 
 CarouselItem.propTypes = {
-  src: PropTypes.string.isRequired,
   altText: PropTypes.string,
-  cssModule: PropTypes.object,
-  children: PropTypes.instanceOf(CarouselCaption)
+  cssModule: PropTypes.object
 };
 
 CarouselItem.contextTypes = {
